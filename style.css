@@ -1,0 +1,49 @@
+body {
+    background-color:white;
+    color: rgb(141, 127, 105);
+    display: flex-wrap;
+  
+}
+
+h1 {
+    color: grey;
+    
+}
+
+h2 {
+    text-align: center;
+    color:black;
+}
+
+h3 {
+    text-align: center;
+    color:lightgray;
+}
+
+
+.card-body {
+    padding: 5%;
+    background-color: lightgray;
+}
+
+.list-group-item {
+    background-color: white;
+}
+
+#office {
+    color: lightgray;
+}
+
+#identification {
+    color: rgb(73, 72, 72);
+}
+
+#schl {
+    color: rgb(73, 72, 72);
+}
+
+@media screen and (max-width: 600px) {
+    #teamRow{
+        margin-left: 25%;
+    } 
+}
