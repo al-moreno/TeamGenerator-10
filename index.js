@@ -15,7 +15,7 @@ async function managerPrompt() {inquirer.prompt([
     {
       type: "input",
       message: "What is the manager's name?",
-      name: "name",
+      name: "manager_name",
     },
     {
       type: "input",
@@ -39,7 +39,7 @@ async function engineerPrompt() {
     {
       type: "input",
       message: "What is the engineer's name?",
-      name: "name",
+      name: "engineer_name",
     },
     {
       type: "input",
@@ -63,7 +63,7 @@ async function internPrompt() {
     {
       type: "input",
       message: "What is the intern's name?",
-      name: "name",
+      name: "intern_name",
     },
     {
       type: "input",

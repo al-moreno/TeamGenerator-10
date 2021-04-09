@@ -1,0 +1,30 @@
+{
+  "name": "unit10hw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest --verbose test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "inquirer": "^6.5.2",
+    "prompts": "^2.4.1"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0"
+  }
+}
